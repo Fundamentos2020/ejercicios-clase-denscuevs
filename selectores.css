@@ -1,0 +1,28 @@
+p {
+    color: brown;
+}
+
+#parrafo2 {
+    background-color: darkgray;
+}
+
+.class1 {
+    background-color: darksalmon;
+}
+
+input:focus{
+    background-color: darkviolet;
+}
+
+button:hover{
+    background-color: dodgerblue;
+}
+
+p::first-letter {
+    font-size: 40px;
+}
+
+p::selection {
+    background-color: black;
+    color: white;
+}
