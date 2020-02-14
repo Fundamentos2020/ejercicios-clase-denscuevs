@@ -1,0 +1,58 @@
+* {
+    border: 2px solid black;
+}
+
+img {
+    display: block;
+}
+a {
+    display: inline-block;
+    height: 50px;
+}
+
+li {
+    display: inline-block;
+    
+}
+
+ul {
+    padding: 0px;
+    position: fixed;
+    top: 0px;
+}
+
+li:hover {
+    background-color: red;
+}
+
+#img2 {
+    display: none;
+}
+
+#pos_relative {
+
+    width: 75%;
+    position: relative;
+    left: 50px;
+    top: 100px;
+    z-index: -1;
+}
+
+#padre {
+    width: 75%;
+    height: 200px;
+}
+
+#hijo {
+    width: 50%;
+    position: absolute;
+    
+
+}
+
+#padrefixed {
+    position: fixed;
+    right: 0px;
+    top: 0px;
+    width: 75%
+}
