@@ -1,0 +1,61 @@
+/*Especificidad (a, b, c, d)
+
+a: Estilos definidos en HTML
+b: ID's
+c: Clases y pseudo-clases
+d: Pseudo-elementos y elementos 
+*/
+
+#content {
+    border: 1px solid black;
+}
+
+#content p {
+    color: blue;
+}
+
+#content > p {
+    
+}
+
+#content div p {
+
+}
+
+@media (min-width: 100px) {
+    #menu {
+        padding: 0px;
+        color: white;
+        background-color: black;
+    }
+    
+    #menu li {
+        display: inline-block;
+        padding: 10px;
+        width: 100px;
+    }
+    
+    #menu li:hover {
+        background-color: white;
+        color: black;
+    }
+}
+
+@media (min-width: 450px) {
+    #menu {
+        padding: 0px;
+        color: white;
+        background-color: red;
+    }
+    
+    #menu li {
+        display: inline-block;
+        padding: 10px;
+        width: 100px;
+    }
+    
+    #menu li:hover {
+        background-color: white;
+        color: black;
+    }
+}
