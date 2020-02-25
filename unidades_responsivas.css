@@ -1,0 +1,24 @@
+html {
+    font-size: 16px;
+}
+
+div {
+    font-size: 30px;
+}
+
+.ejem-em {
+    font-size:  0.5em;
+}
+
+.ejem-rem {
+    font-size: 1rem;
+}
+
+.ejemplo-vh {
+    font-size: 20vh;
+    font-size: 15vw;
+}
+
+.ejemplo-vw {
+    font-size: 20vw;
+}
