@@ -1,0 +1,17 @@
+.flex-container{
+    background-color: brown;
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 400px;
+    /* align-items: baseline; */
+    align-content: center;
+}
+
+.flex-container div{
+    background-color: cadetblue;
+    font-size: 2em;
+    padding: 0.5em;
+    margin: 0.25em;
+}
